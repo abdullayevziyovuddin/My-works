@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.header{
+    background-color: black;
+   width: 100%;
+}
+.logo{
+    border: 1.5px solid transparent;
+    border-image:1 linear-gradient(133deg,#ffffff 35%,#ffcb02 65%) ;
+    font-size: 26px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 7px 15px;
+    transition: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo:hover{
+    text-decoration: none;
+    color: #ffcb02;
+}.logo_text{
+    color: #ffcb02;
+    font-size: 26px;
+}
+.header_nav-link{
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 55px;
+    transition: 0.5 ease;
+
+}
+.header_nav-link:hover{
+    text-decoration: none;
+    color: #ffcb02;
+}
+.header_text{
+    background: url(1.jpg);
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: left;
+    height: 100vh;
+    background-size: cover;
+}
+.header_text-title{
+    font-size: 60px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.header_text-end{
+    font-size: 22px;
+    color: #ffffff;
+    margin-top: 55px;
+}
+
+/*-------------main------------*/
+.main{
+    background-color: black;
+    color: #ffffff;
+    
+}
+.main_info{
+    padding: 60px 0;
+    text-align: center;
+   
+}
+.main_info-titel{
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #ffcb02;
+    
+}
+.main_info-titel::before,
+.main_info-titel::after{
+    content: '';
+    display: block;
+    width: 55px;
+    height: 3px;
+    background: #ffffff;
+    margin: 0 0 10px auto;
+
+}
+.main_info-titel::after{
+    margin: 10px 0 0 0;
+}
+.main_info-end{
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 30px;
+    text-align: center;
+}
+
+section h2{
+    color: #ffcb02;
+   
+    text-align: center;
+}
+section span{
+    color: #ffffff;
+}
+section p{
+    font-size: 20px;
+    padding: 0 30px;
+}
+.main_slider-imges-i{
+    width: 100%;
+}
+.main_slider-a{
+    font-size: 45px;
+    color: #ffcb02;
+    transform: 0.5s;
+}
+.main_slider-a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.main_work{
+    background-color: rgb(0, 0, 0);
+    padding:50px 0;
+    
+}
+.main_tabs{
+    background-color: rgb(32, 32, 32);
+}
+
+.main_tabs-img{
+    width: 100%;
+    border-radius: 10px;
+    height: 500px;
+}
+.main_tabs-text{
+    background: black;
+    border-radius: 10px;
+}
+.main_tabs-text-titel{
+    font-size: 25px;
+    color: #ffcb02;
+    padding: 20px 18px 0 25px;
+    text-transform: uppercase;
+}
+.main_tabs-text-p{
+    font-size: 18px;
+    color: #ffffff;
+    padding: 5px 0 10px 20px;
+    padding-bottom: 200px;
+}
+.main_tabs-a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    background: #ffcb02;
+    border-radius: 10px;
+    padding: 10px 43px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.main_tabs-a:hover{
+    text-decoration: none;
+    color: red;
+}
+.main_ac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.accardion{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.card-header{
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: black;
+    border-bottom: 1px solid black;
+}
+.accardion>.card{
+    border: 2px solid yellow;
+}
+.btn-link{
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+.btn-link{
+    color: black;
+    text-decoration: none;
+}
+.card-header:hover{
+    background-color: #000000;
+}
+.card-body{
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background-color: black;
+    color: #ffffff;
+}
+.accordion>.card>.card-header {
+    border-radius: 0;
+    margin-bottom: -1px;
+    background: rgb(0, 0, 0);
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    color: yellow;
+}
+.btn:not(:disabled):not(.disabled):hover{
+    color: black;
+}
+.accordion>.card>.card-header:hover{
+   background: yellow; 
+}
+.main_info-titel {
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #ffcb02;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.nav-pills .nav-link {
+    border-radius: 0.25rem;
+    background-color: #ffcb02;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    
+}
+.main_ac-titels::before,
+.main_ac-titels::after{
+    content: '';
+    display: block;
+    width: 55px;
+    height: 3px;
+    background: #ffffff;
+    margin: 0 42% 10px auto;
+    
+    
+
+}
+.main_ac-titels::after{
+    margin: 10px 0 0 42%;
+}
+
+
+
